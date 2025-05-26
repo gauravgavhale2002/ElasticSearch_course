@@ -4,7 +4,7 @@
 ```yaml
 services:
   elastic:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.18.0
     ports:
     - 9200:9200
     environment:
